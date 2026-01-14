@@ -1,0 +1,7 @@
+services:
+  any_linux:
+    image: ubuntu:latest
+    tty: true
+    stdin_open: true
+    volumes:
+      - /c/Users/aerof/Downloads/demo_docker:/home/project
